@@ -34,7 +34,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-react-hmre": "^1.1.1",
     "babel-preset-stage-0": "^6.24.1",
-    "open": "0.0.5",
+    "open": "6.0.0",
     "webpack": "^2.3.2",
     "webpack-dev-middleware": "^1.10.1"
   },
