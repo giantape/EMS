@@ -12,8 +12,6 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 require('./views/users/router.js')(app);
 
-var usersRouter = require('./views/users/index');
-app.use('/users', usersRouter);
 app.use(require('webpack-dev-middleware')(compiler, {
     noInfo: true,
     publicPath: config.output.publicPath
